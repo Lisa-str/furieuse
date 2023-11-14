@@ -15,6 +15,7 @@
 // ==================================== */
 
 :root {
+  --title: "Titan One", sans-serif;
   --text: "Satoshi", sans-serif;
   --text-bold: "Satoshi-bold", sans-serif;
   --text-italic: "Satoshi-italic", sans-serif;
@@ -49,6 +50,21 @@ a {
   font-family: sans-serif;
 }
 
+h2,
+h3 {
+  font-family: var(--title);
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -74,17 +90,19 @@ video {
 // base rules
 // ==================================== */
 
-.row + .row {
-  margin-top: 16px;
-}
+/* base test ↓ */
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
+// .row + .row {
+//   margin-top: 16px;
+// }
+
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
 
 .block-test {
   background-color: red;
@@ -103,12 +121,10 @@ video {
 // tu ne peux pas être plus grand que ton parent
 img {
   max-width: 100%;
-  position: absolute;
 }
 
 .section {
   position: relative;
-  border: 2px blue solid;
 }
 
 .section-narrative {
@@ -117,6 +133,8 @@ img {
   justify-content: center;
   border: 2px pink solid;
 }
+
+/* scroll horizontal ↓ */
 
 body {
   height: 100vh;
@@ -130,13 +148,13 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: repeating-linear-gradient(
-    45deg,
-    #606dbc33,
-    #606dbc33 10px,
-    #606dbc00 10px,
-    #606dbc00 20px
-  );
+  // background: repeating-linear-gradient(
+  //   45deg,
+  //   #606dbc33,
+  //   #606dbc33 10px,
+  //   #606dbc00 10px,
+  //   #606dbc00 20px
+  // );
 }
 
 .h-50 {
@@ -155,7 +173,6 @@ body {
   overflow: hidden;
 }
 
-/* slider track */
 .slider-track {
   height: 100%;
   display: inline-flex;
@@ -163,11 +180,87 @@ body {
   border-radius: 5px;
 }
 
-/* slider item (screen) */
 .slider-track .section-narrative {
   width: calc(100vw - 30px);
   display: flex;
   justify-content: center;
   align-items: center;
   border: 5px solid blue;
+}
+/* button ↓ */
+
+.buttons {
+  display: flex;
+  gap: 30px;
+  margin-top: 35px;
+}
+
+.button {
+  border-radius: 4px;
+  border: 1px solid var(--white);
+  padding: 10px;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.button-secondary {
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.buttons-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+/* header ↓ */
+
+/* main ↓ */
+
+.narration-end {
+  margin: 15% 0;
+}
+
+/* main section product ↓ */
+
+.section-product-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-product-text-only {
+  display: flex;
+  flex-direction: column;
+}
+.section-product-detail {
+  li {
+    list-style-type: none;
+  }
+
+  ul {
+    margin-top: 30px;
+  }
+}
+.section-product-detail-review {
+  margin: 150px 0;
+  display: flex;
+}
+
+.section-product-review {
+  p {
+    margin: 30px 0;
+  }
+}
+
+/* footer ↓ */
+
+footer img {
+  max-width: 206px;
+}
+
+hr {
+  height: 2px;
+  margin: 70px 0;
 }

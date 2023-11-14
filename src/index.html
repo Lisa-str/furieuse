@@ -4,6 +4,12 @@
     <meta charset="utf-8" />
     <title>Furieuse</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
@@ -12,7 +18,11 @@
         <nav>
           <div class="container">
             <div class="row">
-              <div class="col-3"><h1></h1></div>
+              <div class="col-3">
+                <h1>
+                  <img src="../src/img/logo-furieuse.svg" alt="logo furieuse" />
+                </h1>
+              </div>
               <div class="col-9">
                 <div>
                   <a href="">Découvrir Furieuse</a
@@ -50,7 +60,7 @@
       </div>
     </div>
     <main>
-      <div class="spacer h-50">spacer</div>
+      <div class="spacer h-50"></div>
 
       <div class="scroll-horizontal h-100" id="horizontalSection">
         <!-- <div class="scroll">
@@ -114,36 +124,54 @@
           </div>
         </div>
       </div>
-      <div class="spacer h-50">spacer</div>
+      <div class="spacer h-50"></div>
 
-      <div class="scroll-vertical">
-        <div class="container section section-danger">
-          <div class="row">
-            <div class="col-5 offset-6">
-              <div class="block-test"></div>
-            </div>
-            <div class="col-5">
-              <div class="block-test"></div>
-            </div>
-            <div class="col-8 offset-4">
-              <div class="block-test"></div>
-            </div>
-            <div class="col-5">
-              <div class="block-test"></div>
-            </div>
-            <div class="col-5 offset-6">
-              <div class="block-test"></div>
-            </div>
-            <div class="col-12">
-              <div class="block-test"></div>
-            </div>
-          </div>
+      <div class="section section-danger">
+        <div class="col-5 offset-6">
+          <img
+            src="../src/img/part2-1.webp"
+            alt="ysa fuit un village qui la traîte de sorcière"
+          />
         </div>
+        <div class="col-5">
+          <img
+            src="../src/img/part2-2.webp"
+            alt="quatres hommes pourchassent Ysa"
+          />
+        </div>
+        <div class="col-8 offset-4">
+          <img
+            src="../src/img/part2-3.webp"
+            alt="ysa part d'une maison en larme, criant Non !r"
+          />
+        </div>
+        <div class="col-5">
+          <img
+            src="../src/img/part2-4.webp"
+            alt="un inconnu attrape le bras de Ysa en lui disant juste parler!!!"
+          />
+        </div>
+        <div class="col-5 offset-6">
+          <img
+            src="../src/img/part2-5.webp"
+            alt="quelque chose jaillit du sol"
+          />
+        </div>
+      </div>
+      <div class="narration-end">
+        <img
+          src="../src/img/part2-6.webp"
+          alt="ysa sous le choc face au portail démoniaque qui s'ouvre"
+        />
+      </div>
 
-        <div class="container section section-product">
-          <div class="row product">
-            <div class="col-6 couverture"><div class="block-test"></div></div>
-            <div class="col-6 section-product-text">
+      <div class="container section section-product">
+        <div class="row product">
+          <div class="col-6 couverture">
+            <img src="../src/img/pochette.webp" alt="couverture de la BD" />
+          </div>
+          <div class="col-6 section-product-text">
+            <div class="section-product-text-only">
               <h2>découvrez furieuse</h2>
               <p>
                 Après « Le Mystère du monde quantique » et « Sous Terre »,
@@ -166,13 +194,14 @@
                 les intentions de l'épée sont peut-être moins nobles qu'il n'y
                 paraît...
               </p>
-              <div class="buttons">
-                <div class="button">Acheter sur le site Dargaud</div>
-                <div class="button button-secondary">Points de ventes</div>
-              </div>
             </div>
-
-            <div class="col-6 section-product-detail">
+            <div class="buttons">
+              <div class="button">Acheter sur le site Dargaud</div>
+              <div class="button button-secondary">Points de ventes</div>
+            </div>
+          </div>
+          <div class="section-product-detail-review">
+            <div class="col-4 section-product-detail">
               <h3>Détails</h3>
               <p>
                 Une BD de Geoffroy Monde et Mathieu Burniat édité par DARGAUD de
@@ -183,7 +212,7 @@
                 <li><strong>ISBN-13 : </strong>978-2205203226</li>
               </ul>
             </div>
-            <div class="col-6 section-product-review">
+            <div class="col-6 offset-2 section-product-review">
               <h3>la presse en parle</h3>
               <div class="review">
                 <h4>Le monde des ados</h4>
@@ -208,14 +237,20 @@
       </div>
     </main>
     <footer>
+      <hr />
       <div class="container">
         <div class="row">
           <div class="col-4 footer-furieuse">
-            <div class="logo"></div>
+            <div class="logo">
+              <img src="../src/img/logo-furieuse.svg" alt="logo furieuse" />
+            </div>
             <p>Par Geoffroy Monde et Mathieu Burniat.</p>
           </div>
           <div class="col-4 footer-dargaud">
             <div class="logo-dargaud">
+              <a href="https://www.dargaud.com/">
+                <img src="../src/img/logo-dargaud.svg" alt="logo Dargaud" />
+              </a>
               <p>
                 Cette BD est éditée par Dargaud. Retrouvez plus d’éditions sur
                 le site
@@ -226,7 +261,7 @@
             </div>
           </div>
           <div class="col-4 footer-buy">
-            <h4>Acheter la BD</h4>
+            <h3>Acheter la BD</h3>
             <div class="buttons buttons-footer">
               <div class="button">Acheter sur le site Dargaud</div>
               <div class="button button-secondary">Points de ventes</div>
