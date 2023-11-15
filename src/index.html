@@ -13,56 +13,69 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <div class="scroll-vertical">
+    <div class="section-header">
       <header>
-        <nav>
-          <div class="container">
-            <div class="row">
-              <div class="col-3">
-                <h1>
-                  <img src="../src/img/logo-furieuse.svg" alt="logo furieuse" />
-                </h1>
-              </div>
-              <div class="col-9">
-                <div>
-                  <a href="">Découvrir Furieuse</a
-                  ><a href="">Acheter sur le site Dargaud</a
-                  ><a href="">Points de ventes</a>
-                </div>
-              </div>
+        <div class="container">
+          <div class="row align-items-baseline">
+            <div class="col-4">
+              <h1>
+                <a href="#"
+                  ><img
+                    class="logo"
+                    src="../src/img/logo-furieuse.svg"
+                    alt="Logo furieuse"
+                /></a>
+              </h1>
+            </div>
+            <div class="col-8">
+              <nav>
+                <a href="#decouvrir">Découvrir Furieuse</a>
+                <a
+                  href="https://www.dargaud.com/bd/furieuse-bda5430320"
+                  target="_blank"
+                  >Acheter sur le site Dargaud</a
+                >
+                <a href="#points-de-ventes">Points de ventes</a>
+              </nav>
             </div>
           </div>
-        </nav>
+        </div>
       </header>
-      <div class="container">
-        <div class="row">
-          <div class="col-7">
-            <div class="header-intro">
-              <span>Geoffroy Monde</span>
-              <span>Mathieu Burniat</span>
-            </div>
-          </div>
-        </div>
+
+      <div class="img-fond-header">
+        <img src="../src/img/header.webp" alt="Ysa qui part du château" />
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="scroll">
-              <span>↓</span>
-              <span>Scrollez</span>
-            </div>
-          </div>
+      <div class="logo-info">
+        <img
+          class="logo"
+          src="../src/img/logo-furieuse.svg"
+          alt="logo furieuse"
+        />
+        <div class="auteurs">
+          <p>Geoffroy Monde</p>
+          <p>Mathieu Burniat</p>
         </div>
-      </div>
-      <div class="section section-intro">
-        <div class="dialogue-test"></div>
-        <div class="block-test"></div>
+        <div class="indicator">
+          <span class="down-arrow">↓</span>
+          <p>Scrollez</p>
+        </div>
       </div>
     </div>
+
     <main>
+      <div class="section section-intro">
+        <div class="dialogue">
+          <img
+            src="../src/img/1-1.webp"
+            alt="dialogue : Et la jeune princesse découvrit comme le monde réel était différent de la vie du château"
+          />
+        </div>
+        <div class="img-narrativ"><img src="../src/img/1-2.webp" alt="" /></div>
+      </div>
+
       <div class="spacer h-50"></div>
 
-      <div class="scroll-horizontal h-100" id="horizontalSection">
+      <div class="scroll-horizontal h-100">
         <!-- <div class="scroll">
           <div class="scroll-ysa"></div>
           <div class="scroll-bar"></div>
@@ -127,31 +140,31 @@
       <div class="spacer h-50"></div>
 
       <div class="section section-danger">
-        <div class="col-5 offset-6">
+        <div>
           <img
             src="../src/img/part2-1.webp"
             alt="ysa fuit un village qui la traîte de sorcière"
           />
         </div>
-        <div class="col-5">
+        <div>
           <img
             src="../src/img/part2-2.webp"
             alt="quatres hommes pourchassent Ysa"
           />
         </div>
-        <div class="col-8 offset-4">
+        <div>
           <img
             src="../src/img/part2-3.webp"
             alt="ysa part d'une maison en larme, criant Non !r"
           />
         </div>
-        <div class="col-5">
+        <div>
           <img
             src="../src/img/part2-4.webp"
             alt="un inconnu attrape le bras de Ysa en lui disant juste parler!!!"
           />
         </div>
-        <div class="col-5 offset-6">
+        <div>
           <img
             src="../src/img/part2-5.webp"
             alt="quelque chose jaillit du sol"
@@ -167,12 +180,12 @@
 
       <div class="container section section-product">
         <div class="row product">
-          <div class="col-6 couverture">
+          <div class="col-5 couverture">
             <img src="../src/img/pochette.webp" alt="couverture de la BD" />
           </div>
-          <div class="col-6 section-product-text">
+          <div class="col-5 offset-1 section-product-text">
             <div class="section-product-text-only">
-              <h2>découvrez furieuse</h2>
+              <h2 id="decouvrir">découvrez furieuse</h2>
               <p>
                 Après « Le Mystère du monde quantique » et « Sous Terre »,
                 Mathieu Burniat revient avec « Furieuse », une pure fiction
@@ -196,8 +209,14 @@
               </p>
             </div>
             <div class="buttons">
-              <div class="button">Acheter sur le site Dargaud</div>
-              <div class="button button-secondary">Points de ventes</div>
+              <div class="button">
+                <a href="https://www.dargaud.com/bd/furieuse-bda5430320">
+                  Acheter sur le site Dargaud</a
+                >
+              </div>
+              <div id="points-de-ventes" class="button button-secondary">
+                Points de ventes
+              </div>
             </div>
           </div>
           <div class="section-product-detail-review">
@@ -212,7 +231,7 @@
                 <li><strong>ISBN-13 : </strong>978-2205203226</li>
               </ul>
             </div>
-            <div class="col-6 offset-2 section-product-review">
+            <div class="col-5 offset-2 section-product-review">
               <h3>la presse en parle</h3>
               <div class="review">
                 <h4>Le monde des ados</h4>
@@ -263,7 +282,11 @@
           <div class="col-4 footer-buy">
             <h3>Acheter la BD</h3>
             <div class="buttons buttons-footer">
-              <div class="button">Acheter sur le site Dargaud</div>
+              <div class="button">
+                <a href="https://www.dargaud.com/bd/furieuse-bda5430320">
+                  Acheter sur le site Dargaud</a
+                >
+              </div>
               <div class="button button-secondary">Points de ventes</div>
             </div>
           </div>
