@@ -12,7 +12,6 @@ let slider = gsap.to(container, {
     parseInt(window.getComputedStyle(container).marginLeft) -
     parseInt(window.getComputedStyle(container).marginRight) +
     "px",
-  ease: "power1.out",
   scrollTrigger: {
     trigger: ".scroll-horizontal",
     start: "top top",

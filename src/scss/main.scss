@@ -263,16 +263,22 @@ body {
 .slider-track {
   height: 100%;
   display: inline-flex;
+  align-items: center;
   // border: 5px solid red;
   // border-radius: 5px;
 }
 
 .slider-track .section-narrative {
   width: calc(99vw - 10px);
+  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 5px solid blue;
+}
+
+.slider-track .section-narrative-4 {
+  width: 300vw;
 }
 
 // tu ne peux pas être plus grand que ton parent
