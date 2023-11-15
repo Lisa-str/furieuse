@@ -106,38 +106,6 @@ video {
 // base rules
 // ==================================== */
 
-/* base test ↓ */
-
-// .row + .row {
-//   margin-top: 16px;
-// }
-
-// .row > .col,
-// .row > [class^="col-"] {
-//   padding-top: 12px;
-//   padding-bottom: 12px;
-//   background-color: rgba(86, 61, 124, 0.15);
-//   border: 1px solid rgba(86, 61, 124, 0.2);
-// }
-
-.block-test {
-  background-color: red;
-  width: 600px;
-  height: 600px;
-  // position: absolute;
-}
-
-.dialogue-test {
-  background-color: yellow;
-  width: 600px;
-  height: 400px;
-  // position: absolute;
-}
-
-.section {
-  position: relative;
-}
-
 /* button ↓ */
 
 .buttons {
