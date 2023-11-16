@@ -269,16 +269,16 @@ body {
 }
 
 .slider-track .section-narrative {
-  width: calc(100vw - 40px);
+  // width: calc(100vw ß- 40px);
   height: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
-  // border: 5px solid blue;
+  border: 5px solid blue;
 }
 
 // tu ne peux pas être plus grand que ton parent
-.scroll-horizontal img {
+img {
   max-width: 100%;
 }
 
@@ -304,59 +304,65 @@ body {
 }
 
 // NARRATIV-2
-.section-narrative-2 {
-  .dialogue2-1 {
-    top: 5%;
-    left: 10%;
-    z-index: 2;
-    width: 25%;
-  }
+.slider-track {
+  .section-narrative-2 {
+    // width: 100vw;
+    aspect-ratio: 1 / 0.62;
+    .dialogue2-1 {
+      top: 5%;
+      left: 10%;
+      z-index: 2;
+      width: 25%;
+    }
 
-  .img-narrativ2-2 {
-    width: 40%;
-    top: 20%;
-    z-index: 1;
-  }
+    .img-narrativ2-2 {
+      width: 40%;
+      top: 20%;
+      z-index: 1;
+    }
 
-  .dialogue2-3 {
-    top: 5%;
-    right: 3%;
-    z-index: 2;
-    width: 35%;
+    .dialogue2-3 {
+      top: 5%;
+      right: 3%;
+      z-index: 2;
+      width: 35%;
+    }
   }
 }
 
 // NARRATIV-3
 .slider-track {
   .section-narrative-3 {
-    width: 113.68vw;
+    // width: 113.68vw;
+    aspect-ratio: 1 / 0.5;
+
     .img-narrativ3-1 {
       bottom: 5%;
       left: 5%;
       z-index: 4;
-      width: 52%;
+      width: 50%;
     }
     .dialogue3-2 {
-      bottom: 40%;
-      left: 20%;
+      bottom: 41%;
+      left: 30%;
       z-index: 5;
-      width: 45%;
+      width: 41%;
     }
 
     .img-narrativ3-3 {
-      top: 5%;
+      top: 2%;
       right: 5%;
       z-index: 3;
-      width: 35%;
+      width: 32%;
     }
   }
 }
 
 // NARRATIV-4
-
 .slider-track {
   .section-narrative-4 {
-    width: 120vw;
+    // width: 90vw;
+    aspect-ratio: 1 / 0.55;
     .img-narrativ4-1,
     .img-narrativ4-2 {
       z-index: 5;
@@ -369,7 +375,8 @@ body {
 // NARRATIV-5
 .slider-track {
   .section-narrative-5 {
-    width: 189.241vw;
+    // width: 189.241vw;
+    aspect-ratio: 1 / 0.3;
     .dialogue5-1 {
       top: 2%;
       left: 0;
@@ -409,7 +416,9 @@ body {
 // NARRATIV-6
 .slider-track {
   .section-narrative-6 {
-    width: 100vw;
+    // width: 100vw;
+    aspect-ratio: 1 / 0.6;
+
     .img-narrativ6-1 {
       top: 20%;
       right: 17%;
@@ -429,7 +438,9 @@ body {
 // NARRATIV-7
 .slider-track {
   .section-narrative-7 {
-    width: 240vw;
+    // width: 240vw;
+    aspect-ratio: 1 / 0.31;
+
     .img-narrativ7-1 {
       bottom: 0;
       left: 1%;
@@ -461,11 +472,13 @@ body {
 // NARRATIV-8
 .slider-track {
   .section-narrative-8 {
-    width: 110vw;
+    // width: 110vw;
+    aspect-ratio: 1 / 0.6;
+
     .dialogue8-1 {
       z-index: 18;
       left: 3%;
-      top: 5%;
+      top: 12%;
       width: 15%;
     }
     .img-narrativ8-2 {
@@ -477,7 +490,7 @@ body {
 
     .dialogue8-3 {
       z-index: 19;
-      top: 5%;
+      top: 12%;
       right: 0;
       width: 22%;
     }
@@ -487,10 +500,10 @@ body {
 // NARRATIV-9
 .slider-track {
   .section-narrative-9 {
-    width: 80vw;
+    aspect-ratio: 1 / 1;
     .dialogue9-1 {
       left: 15%;
-      top: 2%;
+      bottom: 65%;
       z-index: 21;
       width: 22%;
     }
@@ -499,7 +512,7 @@ body {
       z-index: 20;
       bottom: 0;
       left: 33%;
-      width: 35%;
+      width: 40%;
     }
 
     .dialogue9-3 {
@@ -514,7 +527,8 @@ body {
 // NARRATIV-10
 .slider-track {
   .section-narrative-10 {
-    width: 85vw;
+    // width: 85vw;
+    aspect-ratio: 1 / 0.7;
     .dialogue10-1 {
       left: 10%;
       top: 5%;
@@ -541,7 +555,9 @@ body {
 // NARRATIV-11
 .slider-track {
   .section-narrative-11 {
-    width: 139.31vw;
+    // width: 139.31vw;
+    aspect-ratio: 1 / 0.416;
+
     .dialogue11-1 {
       top: 17%;
       left: 3%;
@@ -568,11 +584,13 @@ body {
 // NARRATIV-12
 .slider-track {
   .section-narrative-12 {
-    width: 90.56vw;
+    // width: 90.56vw;
+    aspect-ratio: 1 / 0.67;
+
     .img-narrativ12-1 {
       z-index: 25;
       left: 18%;
-      bottom: 8%;
+      top: 20%;
       width: 57%;
     }
 
@@ -604,6 +622,32 @@ body {
     }
   }
 }
+
+/* main section danger ↓ */
+
+.container-danger-img {
+  height: 100%;
+  max-width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.section-danger {
+  .section-danger-img {
+    width: 34%;
+    position: absolute;
+  }
+
+  .section-danger-img-part2-1 {
+    right: 7%;
+    top: 0;
+  }
+  .section-danger-img-part2-2 {
+    left: 7%;
+    top: 50%;
+  }
+}
+
 /* main section product ↓ */
 
 .section-product-text {
