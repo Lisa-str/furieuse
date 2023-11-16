@@ -248,6 +248,59 @@ header {
   }
 }
 
+/* scroll horizontal progress bar ↓ */
+
+.progress {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+  width: 50%;
+
+  .walker {
+    position: absolute;
+    top: -140px;
+    transform: translate(-50%);
+    z-index: 5000;
+    transform-origin: 50%;
+
+    img {
+      width: 70%;
+    }
+  }
+
+  .progress-bar {
+    position: absolute;
+    width: 100%;
+
+    .progress-line {
+      border: 1.5px solid var(--white);
+    }
+
+    .progress-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 15px solid var(--white);
+    }
+
+    #start-arrow {
+      left: -1%;
+      z-index: 1;
+      transform: rotate(-90deg);
+    }
+
+    #end-arrow {
+      right: -1%;
+      z-index: 1;
+      transform: rotate(90deg);
+    }
+  }
+}
+
 /* scroll horizontal ↓ */
 
 body {

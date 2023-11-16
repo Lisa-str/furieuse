@@ -16,9 +16,13 @@ let slider = gsap.to(container, {
     trigger: ".scroll-horizontal",
     start: "top top",
     end: () => "+=" + container.clientWidth,
-    // markers: true,
+    markers: true,
     scrub: true,
     pin: true,
+
+    onUpdate: function (self) {
+      document.querySelector(".walker").style.left = self.progress * 100 + "%";
+    },
   },
 });
 
