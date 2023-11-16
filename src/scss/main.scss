@@ -647,15 +647,12 @@ img {
 /* main section danger ↓ */
 
 .container-danger-img {
-  height: 100%;
-  max-width: 100%;
-  display: inline-flex;
-  flex-direction: column;
+  aspect-ratio: 1 / 2.3;
 }
 
 .section-danger {
   .section-danger-img {
-    width: 34%;
+    width: 30%;
     position: absolute;
   }
 
@@ -663,9 +660,27 @@ img {
     right: 7%;
     top: 0;
   }
+
   .section-danger-img-part2-2 {
     left: 7%;
-    top: 50%;
+    top: 18%;
+  }
+
+  .section-danger-img-part2-3 {
+    right: 7%;
+    top: 43%;
+    width: 54%;
+  }
+
+  .section-danger-img-part2-4 {
+    left: 7%;
+    bottom: 25%;
+    width: 34%;
+  }
+
+  .section-danger-img-part2-5 {
+    right: 7%;
+    bottom: 0;
   }
 }
 
