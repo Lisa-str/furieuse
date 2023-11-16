@@ -274,7 +274,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid blue;
+  // border: 5px solid blue;
 }
 
 // tu ne peux pas être plus grand que ton parent
@@ -429,26 +429,31 @@ body {
 // NARRATIV-7
 .slider-track {
   .section-narrative-7 {
-    width: 188.47vw;
+    width: 240vw;
     .img-narrativ7-1 {
       bottom: 0;
-      left: 0;
+      left: 1%;
       z-index: 13;
+      width: 11.5%;
     }
     .img-narrativ7-2 {
       top: 0%;
-      left: 10%;
+      left: 15%;
       z-index: 14;
+      width: 10%;
     }
     .img-narrativ7-3 {
-      bottom: 0;
+      bottom: 3%;
+      left: 33%;
       z-index: 15;
+      width: 22%;
     }
 
     .img-narrativ7-4 {
-      top: 10%;
-      left: 0;
+      top: 25%;
+      right: 6%;
       z-index: 16;
+      width: 30%;
     }
   }
 }
@@ -456,23 +461,25 @@ body {
 // NARRATIV-8
 .slider-track {
   .section-narrative-8 {
-    width: 109.24vw;
+    width: 110vw;
     .dialogue8-1 {
       z-index: 18;
-      left: 0;
+      left: 3%;
       top: 5%;
+      width: 15%;
     }
     .img-narrativ8-2 {
       z-index: 17;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      bottom: 10%;
+      left: 10%;
+      width: 80%;
     }
 
     .dialogue8-3 {
       z-index: 19;
       top: 5%;
       right: 0;
+      width: 22%;
     }
   }
 }
@@ -480,24 +487,26 @@ body {
 // NARRATIV-9
 .slider-track {
   .section-narrative-9 {
-    width: 66.53vw;
+    width: 80vw;
     .dialogue9-1 {
-      left: 10%;
-      top: 5%;
+      left: 15%;
+      top: 2%;
       z-index: 21;
+      width: 22%;
     }
 
     .img-narrativ9-2 {
       z-index: 20;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      bottom: 0;
+      left: 33%;
+      width: 35%;
     }
 
     .dialogue9-3 {
-      right: 10%;
+      right: 15%;
       bottom: 10%;
       z-index: 22;
+      width: 22%;
     }
   }
 }
@@ -505,24 +514,26 @@ body {
 // NARRATIV-10
 .slider-track {
   .section-narrative-10 {
-    width: 80.52vw;
+    width: 85vw;
     .dialogue10-1 {
-      left: 5%;
+      left: 10%;
       top: 5%;
       z-index: 21;
+      width: 30%;
     }
 
     .img-narrativ10-2 {
       z-index: 20;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      bottom: 10%;
+      left: 25%;
+      width: 51%;
     }
 
     .dialogue10-3 {
-      right: 10%;
-      bottom: 5%;
+      right: 14%;
+      bottom: 10%;
       z-index: 22;
+      width: 18%;
     }
   }
 }
@@ -532,21 +543,24 @@ body {
   .section-narrative-11 {
     width: 139.31vw;
     .dialogue11-1 {
-      top: 10%;
-      left: 0;
+      top: 17%;
+      left: 3%;
       z-index: 23;
+      width: 20%;
     }
 
     .img-narrativ11-2 {
-      left: 5%;
-      bottom: 5%;
+      left: 12%;
+      bottom: 10%;
       z-index: 22;
+      width: 40%;
     }
 
     .dialogue11-3 {
       z-index: 24;
       top: 3%;
-      right: 0;
+      right: 5%;
+      width: 29%;
     }
   }
 }
@@ -557,31 +571,37 @@ body {
     width: 90.56vw;
     .img-narrativ12-1 {
       z-index: 25;
-      left: 0;
-      bottom: 3%;
+      left: 18%;
+      bottom: 8%;
+      width: 57%;
     }
 
     .dialogue12-2 {
-      top: 0;
-      left: 30%;
+      top: 8%;
+      left: 28%;
       z-index: 26;
+      width: 24%;
     }
 
     .dialogue12-3 {
       z-index: 27;
-      top: 0;
-      right: 0;
+      top: 13%;
+      right: 6%;
+      width: 26%;
     }
   }
 }
 
 // NARRATIV-13
-.section-narrative-13 {
-  .dialogue13 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 45%;
+.slider-track {
+  .section-narrative-13 {
+    width: 105vw;
+    .dialogue13 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 45%;
+    }
   }
 }
 /* main section product ↓ */
