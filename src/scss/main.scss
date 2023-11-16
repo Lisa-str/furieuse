@@ -269,16 +269,12 @@ body {
 }
 
 .slider-track .section-narrative {
-  width: calc(99vw - 10px);
-  height: 80%;
+  width: calc(100vw - 40px);
+  height: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 5px solid blue;
-}
-
-.slider-track .section-narrative-4 {
-  width: 300vw;
 }
 
 // tu ne peux pas être plus grand que ton parent
@@ -330,208 +326,240 @@ body {
 }
 
 // NARRATIV-3
-.section-narrative-3 {
-  .img-narrativ3-1 {
-    bottom: 0;
-    left: 0;
-    z-index: 3;
-  }
-  .dialogue3-2 {
-    display: flex;
-    align-items: center;
-    z-index: 5;
-  }
+.slider-track {
+  .section-narrative-3 {
+    width: 113.68vw;
+    .img-narrativ3-1 {
+      bottom: 0;
+      left: 0;
+      z-index: 3;
+    }
+    .dialogue3-2 {
+      display: flex;
+      align-items: center;
+      z-index: 5;
+    }
 
-  .img-narrativ3-3 {
-    top: 0;
-    right: 0;
-    z-index: 4;
+    .img-narrativ3-3 {
+      top: 0;
+      right: 0;
+      z-index: 4;
+    }
   }
 }
 
 // NARRATIV-4
-.section-narrative-4 {
-  .img-narrativ4-1,
-  .img-narrativ4-2 {
-    z-index: 5;
+
+.slider-track {
+  .section-narrative-4 {
+    width: 37.92vw;
+
+    .img-narrativ4-1,
+    .img-narrativ4-2 {
+      z-index: 5;
+    }
   }
 }
 
 // NARRATIV-5
-.section-narrative-5 {
-  .dialogue5-1 {
-    top: 0;
-    left: 0;
-    z-index: 7;
-  }
+.slider-track {
+  .section-narrative-5 {
+    width: 189.241vw;
+    .dialogue5-1 {
+      top: 0;
+      left: 0;
+      z-index: 7;
+    }
 
-  .img-narrativ-5-2 {
-    top: 5%;
-    left: 5%;
-    z-index: 6;
-  }
-  .dialogue5-3 {
-    top: 10%;
-    left: 10%;
-    z-index: 9;
-  }
+    .img-narrativ-5-2 {
+      top: 5%;
+      left: 5%;
+      z-index: 6;
+    }
+    .dialogue5-3 {
+      top: 10%;
+      left: 10%;
+      z-index: 9;
+    }
 
-  .img-narrativ-5-4 {
-    bottom: 5%;
-    left: 50%;
-    z-index: 8;
-  }
+    .img-narrativ-5-4 {
+      bottom: 5%;
+      left: 50%;
+      z-index: 8;
+    }
 
-  .img-narrativ-5-5 {
-    top: 0;
-    right: 0;
-    z-index: 10;
+    .img-narrativ-5-5 {
+      top: 0;
+      right: 0;
+      z-index: 10;
+    }
   }
 }
 
 // NARRATIV-6
-.section-narrative-6 {
-  .img-narrativ6-1 {
-    display: flex;
-    align-items: center;
-    z-index: 11;
-  }
+.slider-track {
+  .section-narrative-6 {
+    width: 82.29vw;
+    .img-narrativ6-1 {
+      display: flex;
+      align-items: center;
+      z-index: 11;
+    }
 
-  .dialogue6-2 {
-    z-index: 12;
-    top: 0;
-    right: 0;
+    .dialogue6-2 {
+      z-index: 12;
+      top: 0;
+      right: 0;
+    }
   }
 }
 
 // NARRATIV-7
-.section-narrative-7 {
-  .img-narrativ7-1 {
-    bottom: 0;
-    left: 0;
-    z-index: 13;
-  }
-  .img-narrativ7-2 {
-    top: 0%;
-    left: 10%;
-    z-index: 14;
-  }
-  .img-narrativ7-3 {
-    bottom: 0;
-    z-index: 15;
-  }
+.slider-track {
+  .section-narrative-7 {
+    width: 188.47vw;
+    .img-narrativ7-1 {
+      bottom: 0;
+      left: 0;
+      z-index: 13;
+    }
+    .img-narrativ7-2 {
+      top: 0%;
+      left: 10%;
+      z-index: 14;
+    }
+    .img-narrativ7-3 {
+      bottom: 0;
+      z-index: 15;
+    }
 
-  .img-narrativ7-4 {
-    top: 10%;
-    left: 0;
-    z-index: 16;
+    .img-narrativ7-4 {
+      top: 10%;
+      left: 0;
+      z-index: 16;
+    }
   }
 }
 
 // NARRATIV-8
-.section-narrative-8 {
-  .dialogue8-1 {
-    z-index: 18;
-    left: 0;
-    top: 5%;
-  }
-  .img-narrativ8-2 {
-    z-index: 17;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.slider-track {
+  .section-narrative-8 {
+    width: 109.24vw;
+    .dialogue8-1 {
+      z-index: 18;
+      left: 0;
+      top: 5%;
+    }
+    .img-narrativ8-2 {
+      z-index: 17;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-  .dialogue8-3 {
-    z-index: 19;
-    top: 5%;
-    right: 0;
+    .dialogue8-3 {
+      z-index: 19;
+      top: 5%;
+      right: 0;
+    }
   }
 }
 
 // NARRATIV-9
-.section-narrative-9 {
-  .dialogue9-1 {
-    left: 10%;
-    top: 5%;
-    z-index: 21;
-  }
+.slider-track {
+  .section-narrative-9 {
+    width: 66.53vw;
+    .dialogue9-1 {
+      left: 10%;
+      top: 5%;
+      z-index: 21;
+    }
 
-  .img-narrativ9-2 {
-    z-index: 20;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    .img-narrativ9-2 {
+      z-index: 20;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-  .dialogue9-3 {
-    right: 10%;
-    bottom: 10%;
-    z-index: 22;
+    .dialogue9-3 {
+      right: 10%;
+      bottom: 10%;
+      z-index: 22;
+    }
   }
 }
 
 // NARRATIV-10
-.section-narrative-10 {
-  .dialogue10-1 {
-    left: 5%;
-    top: 5%;
-    z-index: 21;
-  }
+.slider-track {
+  .section-narrative-10 {
+    width: 80.52vw;
+    .dialogue10-1 {
+      left: 5%;
+      top: 5%;
+      z-index: 21;
+    }
 
-  .img-narrativ10-2 {
-    z-index: 20;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    .img-narrativ10-2 {
+      z-index: 20;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-  .dialogue10-3 {
-    right: 10%;
-    bottom: 5%;
-    z-index: 22;
+    .dialogue10-3 {
+      right: 10%;
+      bottom: 5%;
+      z-index: 22;
+    }
   }
 }
 
 // NARRATIV-11
-.section-narrative-11 {
-  .dialogue11-1 {
-    top: 10%;
-    left: 0;
-    z-index: 23;
-  }
+.slider-track {
+  .section-narrative-11 {
+    width: 139.31vw;
+    .dialogue11-1 {
+      top: 10%;
+      left: 0;
+      z-index: 23;
+    }
 
-  .img-narrativ11-2 {
-    left: 5%;
-    bottom: 5%;
-    z-index: 22;
-  }
+    .img-narrativ11-2 {
+      left: 5%;
+      bottom: 5%;
+      z-index: 22;
+    }
 
-  .dialogue11-3 {
-    z-index: 24;
-    top: 3%;
-    right: 0;
+    .dialogue11-3 {
+      z-index: 24;
+      top: 3%;
+      right: 0;
+    }
   }
 }
 
 // NARRATIV-12
-.section-narrative-12 {
-  .img-narrativ12-1 {
-    z-index: 25;
-    left: 0;
-    bottom: 3%;
-  }
+.slider-track {
+  .section-narrative-12 {
+    width: 90.56vw;
+    .img-narrativ12-1 {
+      z-index: 25;
+      left: 0;
+      bottom: 3%;
+    }
 
-  .dialogue12-2 {
-    top: 0;
-    left: 30%;
-    z-index: 26;
-  }
+    .dialogue12-2 {
+      top: 0;
+      left: 30%;
+      z-index: 26;
+    }
 
-  .dialogue12-3 {
-    z-index: 27;
-    top: 0;
-    right: 0;
+    .dialogue12-3 {
+      z-index: 27;
+      top: 0;
+      right: 0;
+    }
   }
 }
 
