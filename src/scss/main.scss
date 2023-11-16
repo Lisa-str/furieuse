@@ -294,13 +294,13 @@ body {
     position: absolute;
   }
 
-  .dialogue {
-    max-width: 25%;
-  }
+  // .dialogue {
+  //   max-width: 25%;
+  // }
 
-  .img-narrativ {
-    max-width: 50%;
-  }
+  // .img-narrativ {
+  //   max-width: 50%;
+  // }
 }
 
 // NARRATIV-2
@@ -309,11 +309,12 @@ body {
     top: 5%;
     left: 10%;
     z-index: 2;
+    width: 25%;
   }
 
   .img-narrativ2-2 {
-    display: flex;
-    align-items: center;
+    width: 40%;
+    top: 20%;
     z-index: 1;
   }
 
@@ -321,7 +322,7 @@ body {
     top: 5%;
     right: 3%;
     z-index: 2;
-    max-width: 37%;
+    width: 35%;
   }
 }
 
@@ -330,20 +331,23 @@ body {
   .section-narrative-3 {
     width: 113.68vw;
     .img-narrativ3-1 {
-      bottom: 0;
-      left: 0;
-      z-index: 3;
+      bottom: 5%;
+      left: 5%;
+      z-index: 4;
+      width: 52%;
     }
     .dialogue3-2 {
-      display: flex;
-      align-items: center;
+      bottom: 40%;
+      left: 20%;
       z-index: 5;
+      width: 45%;
     }
 
     .img-narrativ3-3 {
-      top: 0;
-      right: 0;
-      z-index: 4;
+      top: 5%;
+      right: 5%;
+      z-index: 3;
+      width: 35%;
     }
   }
 }
@@ -352,11 +356,12 @@ body {
 
 .slider-track {
   .section-narrative-4 {
-    width: 37.92vw;
-
+    width: 120vw;
     .img-narrativ4-1,
     .img-narrativ4-2 {
       z-index: 5;
+      width: 30%;
+      bottom: 5%;
     }
   }
 }
@@ -366,31 +371,36 @@ body {
   .section-narrative-5 {
     width: 189.241vw;
     .dialogue5-1 {
-      top: 0;
+      top: 2%;
       left: 0;
       z-index: 7;
+      width: 18%;
     }
 
-    .img-narrativ-5-2 {
-      top: 5%;
-      left: 5%;
+    .img-narrativ5-2 {
+      top: 12%;
+      left: 13%;
       z-index: 6;
+      width: 20%;
     }
     .dialogue5-3 {
-      top: 10%;
-      left: 10%;
+      bottom: 35%;
+      left: 35%;
       z-index: 9;
+      width: 13%;
     }
 
-    .img-narrativ-5-4 {
+    .img-narrativ5-4 {
       bottom: 5%;
-      left: 50%;
+      left: 40%;
       z-index: 8;
+      width: 32%;
     }
 
-    .img-narrativ-5-5 {
-      top: 0;
-      right: 0;
+    .img-narrativ5-5 {
+      top: 3%;
+      right: 2%;
+      width: 21%;
       z-index: 10;
     }
   }
@@ -399,17 +409,19 @@ body {
 // NARRATIV-6
 .slider-track {
   .section-narrative-6 {
-    width: 82.29vw;
+    width: 100vw;
     .img-narrativ6-1 {
-      display: flex;
-      align-items: center;
+      top: 20%;
+      right: 17%;
       z-index: 11;
+      width: 72%;
     }
 
     .dialogue6-2 {
       z-index: 12;
-      top: 0;
-      right: 0;
+      top: 5%;
+      right: 5%;
+      width: 23%;
     }
   }
 }
