@@ -33,3 +33,30 @@ window.addEventListener("resize", () => {
   slider.invalidate();
   slider.totalProgress(progress);
 });
+
+// danger section
+var picutreRight = document.querySelectorAll(".section-danger-img-right");
+
+picutreRight.forEach((picture) => {
+  gsap.from(picture, {
+    scrollTrigger: {
+      trigger: picture,
+    },
+    opacity: 0,
+    x: 300,
+    duration: 1.5,
+  });
+});
+
+var picutreLeft = document.querySelectorAll(".section-danger-img-left");
+
+picutreLeft.forEach((picture) => {
+  gsap.from(picture, {
+    scrollTrigger: {
+      trigger: picture,
+    },
+    opacity: 0,
+    x: -300,
+    duration: 1.5,
+  });
+});
