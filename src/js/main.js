@@ -16,7 +16,7 @@ let slider = gsap.to(container, {
     trigger: ".scroll-horizontal",
     start: "top top",
     end: () => "+=" + container.clientWidth,
-    markers: true,
+    // markers: true,
     scrub: true,
     pin: true,
 
@@ -34,7 +34,7 @@ window.addEventListener("resize", () => {
   slider.totalProgress(progress);
 });
 
-// danger section
+// picture fade
 var picutreRight = document.querySelectorAll(".section-danger-img-right");
 
 picutreRight.forEach((picture) => {
@@ -58,5 +58,28 @@ picutreLeft.forEach((picture) => {
     opacity: 0,
     x: -300,
     duration: 1.5,
+  });
+});
+
+var picutreBottom = document.querySelectorAll(".picture-bottom");
+
+picutreBottom.forEach((picture) => {
+  gsap.from(picture, {
+    scrollTrigger: {
+      trigger: picture,
+    },
+    opacity: 0,
+
+    y: 150,
+    duration: 1.7,
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  var sectionHeaderInfo = document.querySelector(".section-header-info");
+
+  gsap.from(sectionHeaderInfo, {
+    opacity: 0,
+    duration: 2.3,
   });
 });
