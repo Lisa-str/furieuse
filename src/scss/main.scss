@@ -97,6 +97,9 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+  draggable: false;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
 }
 
 .logo img {
@@ -447,6 +450,10 @@ img {
       z-index: 5;
       width: 30%;
       bottom: 5%;
+    }
+
+    .img-narrativ4-2 {
+      z-index: 5;
     }
   }
 }
